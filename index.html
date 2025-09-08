@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordify Pro - Ad Showcase</title>
+    <style>
+        /* Import Google Fonts for a professional look */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        /* CSS Variables for a consistent and easily customizable theme */
+        :root {
+            --bg-dark: #0f0c29;
+            --bg-mid: #302b63;
+            --bg-light: #24243e;
+            --primary-glow: #00f2fe;
+            --secondary-glow: #ff007f;
+            --text-primary: #ffffff;
+            --text-secondary: #c0c0c0;
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --card-border: rgba(255, 255, 255, 0.1);
+            --blur-effect: blur(10px);
+        }
+
+        /* Keyframe animations for dynamic effects */
+        @keyframes backgroundPan {
+            0% { background-position: 0% center; }
+            100% { background-position: 100% center; }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-primary);
+            background: linear-gradient(45deg, var(--bg-dark), var(--bg-mid), var(--bg-light), var(--bg-dark));
+            background-size: 400% 400%;
+            animation: backgroundPan 15s ease infinite;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        /* Main container and layout */
+        .container {
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--primary-glow), var(--secondary-glow));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        
+        /* Section Styling */
+        .ad-section {
+            margin-bottom: 40px;
+        }
+
+        /* Ad Grid Layout */
+        .ad-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+
+        /* Glassmorphism Card Style */
+        .ad-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 15px;
+            padding: 25px;
+            backdrop-filter: var(--blur-effect);
+            -webkit-backdrop-filter: var(--blur-effect);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: fadeInUp 1s ease-out;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content inside the card */
+            min-height: 250px; /* Adjusted height for ads */
+            justify-content: center;
+        }
+
+        .ad-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 20px rgba(0, 242, 254, 0.2);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1>Nordify Pro</h1>
+        </header>
+
+        <!-- === Native Ad Section === -->
+        <section class="ad-section">
+            <div class="ad-grid">
+                <div class="ad-card" style="grid-column: 1 / -1;">
+                    <script async="async" data-cfasync="false" src="//pl27583502.revenuecpmgate.com/a30c42763ed7eaae88b4a86659d52e5a/invoke.js"></script>
+                    <div id="container-a30c42763ed7eaae88b4a86659d52e5a"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- === Main Display Ads Section === -->
+        <section class="ad-section">
+            <div class="ad-grid">
+                <!-- Ads 1-10 -->
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <!-- Ads 11-20 -->
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <!-- Ads 21-30 -->
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                 <!-- Ads 31-40 -->
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <!-- Ads 41-50 -->
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <!-- Ads 51-60 -->
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+                <div class="ad-card"><script type="text/javascript"> atOptions = {'key' : 'b0a001cdcb495b9f1aa7d2b04ae36e3a','format' : 'iframe','height' : 250,'width' : 300,'params' : {}}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/b0a001cdcb495b9f1aa7d2b04ae36e3a/invoke.js"></script></div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- 
+    ====================================================================
+    === POPUNDER and SOCIAL BAR JAVASCRIPT CODES ARE PLACED HERE
+    ====================================================================
+    -->
+    <script type='text/javascript' src='//pl27583533.revenuecpmgate.com/0b/d3/72/0bd3727ae48fa5c50cfadb90f3ae2d4a.js'></script>
+    <script type='text/javascript' src='//pl27583488.revenuecpmgate.com/6d/92/ce/6d92ce042c8088f3306bb303bc6T1e4c.js'></script>
+    
+</body>
+</html>
